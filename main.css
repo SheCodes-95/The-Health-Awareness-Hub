@@ -1,8 +1,8 @@
 body{
     margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #f5ee4e;
-    color: #595604;
+   font-family: Calibri, sans-serif;
+    background-color: #283341ff;
+    color: #fbde44ff;
 }
 .sidebar{
     margin: 0;
@@ -17,7 +17,7 @@ body{
 
 .sidebar a {
     display: block;
-    color: #595604;
+    color: #283341ff;
     padding: 50px;
     text-decoration: none;
 }
@@ -52,7 +52,7 @@ div.content{
         margin-left: 0;
     }
 }
-    @media screen and (max-width: 400px){
+    @media screen and (max-width: 600px){
         .sidebar a{
             text-align: center;
             float: none;
@@ -70,9 +70,17 @@ div.content{
     hr.solid {
         border-top: 1px solid white;
       }
-      .content h1, p{
+      .content h1{
           text-align: center;
           padding: 10px;
+          font-size: 50px;
+          
+      }
+      .content p{
+          text-align: center;
+          padding: 10px;
+          color: white;
+        
       }
       #myBtn {
         display: none;
@@ -93,4 +101,93 @@ div.content{
       #myBtn:hover {
         background-color: #555;
       }
+
+      .responsive-one{
+          position: relative;
+          overflow: hidden;
+          padding-top: 56.25%;
+
+      }
+
+      .responsive-one iframe{
+          position: absolute;
+          top: 0;
+          left: 50px;
+          right: 80px;
+          width: 80%;
+          height: 80%;
+      }
+
+      .responsive-two{
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%;
+
+    }
+
+    .responsive-two iframe{
+        position: absolute;
+        top: 0;
+        left: 50px;
+        right: 80px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .responsive-three{
+        position: relative;
+        overflow: hidden;
+        padding-top: 56.25%;
+
+    }
+
+    .responsive-three iframe{
+        position: absolute;
+        top: 0;
+        left: 50px;
+        right: 80px;
+        width: 80%;
+        height: 80%;
+    }
+    .content span p{
+        font-size: 20px;
+        color: #fbde44ff;
+    }
+
+    .btn-ed{
+        width: 50%;
+        right: 70px;
+    background: #fbde44ff;
+    border: 2px solid white;
+    color: #03378c;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    
+    }
+
+    .btn-d{
+        width: 80%;
+    background: #fbde44ff;
+    border: 2px solid white;
+    color: #03378c;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+
+    }
+
+    .btn-lu{
+        width: 80%;
+    background: #fbde44ff;
+    border: 2px solid white;
+    color: #03378c;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    }
+
 
