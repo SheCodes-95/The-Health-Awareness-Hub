@@ -168,7 +168,8 @@ div.content{
     }
 
     .btn-d{
-        width: 80%;
+        width: 50%;
+        right: 70px;
     background: #fbde44ff;
     border: 2px solid white;
     color: #03378c;
@@ -180,6 +181,18 @@ div.content{
     }
 
     .btn-lu{
+        width: 50%;
+        right: 70px;
+    background: #fbde44ff;
+    border: 2px solid white;
+    color: #03378c;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    }
+
+    .btn-many{
         width: 80%;
     background: #fbde44ff;
     border: 2px solid white;
